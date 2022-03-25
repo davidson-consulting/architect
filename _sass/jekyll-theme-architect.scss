@@ -8,8 +8,8 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  color: #181036;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  color: #fafafa;
+  background: #181036 url(../images/body-bg.jpg) 0 0 repeat;
 }
 
 p {
@@ -20,14 +20,14 @@ a {
   color: #ae288e;
 }
 a:hover {
-  color: #181036;
+  color: #fafafa;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: #fafafa url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -38,7 +38,7 @@ header h1 {
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
-  color: #fff;
+  color: #ae288e;
   letter-spacing: -1px;
 }
 
@@ -100,11 +100,17 @@ a.button {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 23px;
   line-height: 1.2;
-  color: #fff;
+  color: #181036;
 }
 a.button small {
   display: block;
   font-size: 11px;
+}
+header a #dav_logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent url(../images/dav_logo.jpg) 0 0 no-repeat;
 }
 header a.button {
   position: absolute;
@@ -193,7 +199,7 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
-  color: #474747;
+  color: #fafafa;
   text-indent: 6px;
   letter-spacing: -1px;
 }
@@ -210,7 +216,7 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
-  color: #474747;
+  color: #fafafa;
   text-indent: 4px;
 }
 #main-content h2:before {
@@ -226,7 +232,7 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
-  color: #474747;
+  color: #fafafa;
   text-indent: 3px;
 }
 
@@ -242,7 +248,7 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
-  color: #474747;
+  color: #fafafa;
   text-indent: 3px;
 }
 
@@ -257,7 +263,7 @@ h4:before {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
-  color: #474747;
+  color: #fafafa;
   text-indent: 3px;
 }
 h5:before {
@@ -271,7 +277,7 @@ h5:before {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
-  color: #474747;
+  color: #fafafa;
   text-indent: 3px;
 }
 h6:before {
